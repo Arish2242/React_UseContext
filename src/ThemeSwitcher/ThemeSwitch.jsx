@@ -6,7 +6,7 @@ const ThemeSwitch = () => {
     return (
         <div style={{height:"900px",backgroundColor:Theme==="light"?"black":"white"}}>
             <h1>Welome to  the Theme Switcher App!</h1>
-            <h3>this is content area the theme is currently light</h3>
+            <h3>this is content area the theme is currently {Theme}</h3>
        </div>
     )
 }
